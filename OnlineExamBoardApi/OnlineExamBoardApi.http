@@ -1,0 +1,20 @@
+@OnlineExamBoardApi_HostAddress = http://localhost:5258
+
+@name login
+
+POST {{OnlineExamBoardApi_HostAddress}}/api/Auth/login
+Content-Type: application/json
+
+{
+  "Username": "shubhamji",
+  "Password": "admin@123"
+}
+
+###
+
+@name getColleges
+
+GET {{OnlineExamBoardApi_HostAddress}}/api/College/GetAllColleges
+Authorization: Bearer {{login.response.body.accessToken}}
+
+

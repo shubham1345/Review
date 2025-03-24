@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineExamBoardApi", "OnlineExamBoardApi\OnlineExamBoardApi.csproj", "{0BF72172-93AA-47FA-8AFD-1183D97E7F8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{338CE201-4737-4FAD-8CF3-B8AF6632ADAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{161BEB45-0C87-4CA3-BE99-81526A1EC7EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "databaseBackup", "databaseBackup", "{69EB1EC8-B3D4-46A1-855D-50643C9001A5}"
+	ProjectSection(SolutionItems) = preProject
+		D:\dbOnlineExamBoard.bak = D:\dbOnlineExamBoard.bak
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF72172-93AA-47FA-8AFD-1183D97E7F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF72172-93AA-47FA-8AFD-1183D97E7F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF72172-93AA-47FA-8AFD-1183D97E7F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF72172-93AA-47FA-8AFD-1183D97E7F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338CE201-4737-4FAD-8CF3-B8AF6632ADAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338CE201-4737-4FAD-8CF3-B8AF6632ADAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338CE201-4737-4FAD-8CF3-B8AF6632ADAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338CE201-4737-4FAD-8CF3-B8AF6632ADAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161BEB45-0C87-4CA3-BE99-81526A1EC7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161BEB45-0C87-4CA3-BE99-81526A1EC7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161BEB45-0C87-4CA3-BE99-81526A1EC7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161BEB45-0C87-4CA3-BE99-81526A1EC7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCA33232-8CE1-492B-8F71-EA928A04DF33}
+	EndGlobalSection
+EndGlobal
